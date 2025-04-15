@@ -5,20 +5,20 @@ body
 }
 h1
 {
-    width: 90%;
-    margin: auto;
-    padding: 50px 0;
-    letter-spacing: 2px;
-    font-weight: 700;
+    width: 72%;
+    margin: manual;
+    padding: 50px 25;
+    letter-spacing: 1px;
+    font-weight: 550;
     text-transform: capitalize;
 }
 #containerClothing, #containerAccessories
 {
     display: grid;
-    grid-gap: 70px 20px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 80px 25px;
+    grid-template-columns: repeat(6, 10fr);
     width: 90%;
-    margin: auto;
+    margin: manual;
     padding-bottom: 40px;
 }
 #box 
