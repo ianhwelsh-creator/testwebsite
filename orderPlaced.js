@@ -1,27 +1,43 @@
-document.cookie = "orderId="+0 +",counter="+0
+<script>
+  // Set initial cookie (better formatting)
+  document.cookie = "orderId=0; path=/";
+  document.cookie = "counter=0; path=/";
 
-let httpRequest = new XMLHttpRequest(),
-jsonArray,
-method = "GET",
-jsonRequestURL = "https://5d76bf96515d1a0014085cf9.mockapi.io/order";
+  const jsonRequestURL = "https://5d76bf96515d1a0014085cf9.mockapi.io/order";
 
-httpRequest.open(method, jsonRequestURL, true);
-httpRequest.onreadystatechange = function()
-{
-    if(httpRequest.readyState == 4 && httpRequest.status == 200)
-    {
-        // convert JSON into JavaScript object
-        jsonArray = JSON.parse(httpRequest.responseText)
-        console.log(jsonArray)    
-        jsonArray.push(
-            {
-                "id": (jsonArray.length)+1, "amount": 200,"product":["userOrder"]
-            })
+  // Step 1: Fetch existing orders
+  fetch(jsonRequestURL)
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then(data => {
+      console.log("Current Orders:", data);
 
-        // send with new request the updated JSON file to the server:
-        httpRequest.open("POST", jsonRequestURL, true)
-        httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-        httpRequest.send(jsonArray)
-    }
-}
-httpRequest.send(null);
+      // Step 2: Create a new order object
+      const newOrder = {
+        id: data.length + 1,
+        amount: 200,
+        product: ["userOrder"]
+      };
+
+      // Step 3: Send new order with POST request
+      return fetch(jsonRequestURL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newOrder)
+      });
+    })
+    .then(postResponse => {
+      if (!postResponse.ok) throw new Error("Failed to POST new order");
+      return postResponse.json();
+    })
+    .then(postedData => {
+      console.log("New Order Posted Successfully:", postedData);
+    })
+    .catch(error => {
+      console.error("Error:", error);
+    });
+</script>
