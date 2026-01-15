@@ -52,40 +52,78 @@ let containerClothing = document.getElementById("containerClothing");
 let containerAccessories = document.getElementById("containerAccessories");
 // mainContainer.appendChild(dynamicClothingSection('hello world!!'))
 
-// BACKEND CALLING
+// // BACKEND CALLING
 
-let httpRequest = new XMLHttpRequest();
+// let httpRequest = new XMLHttpRequest();
 
-httpRequest.onreadystatechange = function() {
-  if (this.readyState === 4) {
-    if (this.status == 200) {
-      // console.log('call successful');
-      contentTitle = JSON.parse(this.responseText);
-      if (document.cookie.indexOf(",counter=") >= 0) {
-        var counter = document.cookie.split(",")[1].split("=")[1];
-        document.getElementById("badge").innerHTML = counter;
-      }
-      for (let i = 0; i < contentTitle.length; i++) {
-        if (contentTitle[i].isAccessory) {
-          console.log(contentTitle[i]);
-          containerAccessories.appendChild(
-            dynamicClothingSection(contentTitle[i])
-          );
-        } else {
-          console.log(contentTitle[i]);
-          containerClothing.appendChild(
-            dynamicClothingSection(contentTitle[i])
-          );
-        }
-      }
-    } else {
-      console.log("call failed!");
+// httpRequest.onreadystatechange = function() {
+//   if (this.readyState === 4) {
+//     if (this.status == 200) {
+//       // console.log('call successful');
+//       contentTitle = JSON.parse(this.responseText);
+//       if (document.cookie.indexOf(",counter=") >= 0) {
+//         var counter = document.cookie.split(",")[1].split("=")[1];
+//         document.getElementById("badge").innerHTML = counter;
+//       }
+//       for (let i = 0; i < contentTitle.length; i++) {
+//         if (contentTitle[i].isAccessory) {
+//           console.log(contentTitle[i]);
+//           containerAccessories.appendChild(
+//             dynamicClothingSection(contentTitle[i])
+//           );
+//         } else {
+//           console.log(contentTitle[i]);
+//           containerClothing.appendChild(
+//             dynamicClothingSection(contentTitle[i])
+//           );
+//         }
+//       }
+//     } else {
+//       console.log("call failed!");
+//     }
+//   }
+// };
+// httpRequest.open(
+//   "GET",
+//   "https://5d76bf96515d1a0014085cf9.mockapi.io/product",
+//   true
+// );
+// httpRequest.send();
+
+const API_URL ="https://5d76bf96515d1a0014085cf9.mockapi.io/product";
+async function fetchData() {
+  try {
+    const response = await fetch(API_URL);
+    if(!response.ok){
+      throw new Error("Network response was not ok");
     }
+    const data = await response.json();
+    updateBadgeFromCookie();
+    renderProducts(data);
   }
-};
-httpRequest.open(
-  "GET",
-  "https://5d76bf96515d1a0014085cf9.mockapi.io/product",
-  true
-);
-httpRequest.send();
+  catch (error) {
+    console.error("Fetch error: ", error);
+  }
+}
+
+function updateBadgeFromCookie() {
+  const cookie = document.cookie.split("; ");
+  const counterCookie = cookie.find(row=>row.startsWith("counter="));
+  if (counterCookie) {
+    const counter = counterCookie.split("=")[1];
+    document.getElementById("badge").innerHTML = counter;
+  }
+
+}
+
+function renderProducts(products) {
+  products.forEach(product => {
+    if (product.isAccessory) {
+      containerAccessories.appendChild(dynamicClothingSection(product));
+    } else {
+      containerClothing.appendChild(dynamicClothingSection(product));
+    }
+});
+}
+
+fetchData();
