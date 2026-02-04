@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import productsData from '../data/products.json';
 import { useCart } from '../context/CartContext';
@@ -10,9 +10,19 @@ export default function ProductDetail() {
   const product = productsData.find(p => p.id === id);
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
-  
+
   const [selectedSize, setSelectedSize] = useState('');
   const [selectedImage, setSelectedImage] = useState(0);
+  const [toast, setToast] = useState({ show: false, message: '', type: '' });
+
+  useEffect(() => {
+    if (toast.show) {
+      const timer = setTimeout(() => {
+        setToast({ show: false, message: '', type: '' });
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [toast.show]);
 
   if (!product) return <div className="container-luxury py-24">Product not found</div>;
 
@@ -20,17 +30,29 @@ export default function ProductDetail() {
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
+  const showToast = (message, type) => {
+    setToast({ show: true, message, type });
+  };
+
   const handleAddToCart = () => {
     if (!selectedSize) {
-      alert('Please select a size');
+      showToast('Please select a size', 'error');
       return;
     }
     addToCart(product, selectedSize);
-    alert('Added to cart!');
+    showToast('Added to cart!', 'success');
   };
 
   return (
     <div className="container-luxury py-12">
+      {toast.show && (
+        <div className={`fixed top-24 left-1/2 transform -translate-x-1/2 z-50 px-6 py-4 rounded-lg shadow-lg transition-all ${
+          toast.type === 'success' ? 'bg-luxury-black text-luxury-white' : 'bg-red-600 text-white'
+        }`}>
+          {toast.message}
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
         <div>
           <div className="aspect-[3/4] bg-luxury-cream mb-4">

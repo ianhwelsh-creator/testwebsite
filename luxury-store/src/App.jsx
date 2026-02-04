@@ -24,6 +24,7 @@ import About from './pages/About';
 import Shipping from './pages/Shipping';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
+import Help from './pages/Help';
 import Styleguide from './pages/Styleguide';
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
                 <Route path="/shipping" element={<Shipping />} />
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/help" element={<Help />} />
                 <Route path="/styleguide" element={<Styleguide />} />
               </Routes>
             </main>

@@ -14,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-luxury-white border-b border-luxury-gray-light">
       <div className="container-luxury py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-serif font-medium">ATELIER</Link>
+          <Link to="/" className="text-2xl font-serif font-medium">CARLYLE</Link>
 
           <nav className="hidden md:flex space-x-8">
             <Link to="/collection/new-arrivals" className="text-sm uppercase tracking-wider hover:opacity-70">New Arrivals</Link>
