@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "1",
+    "sku": "TF-COAT-001",
+    "name": "Cashmere Overcoat",
+    "brand": "Tom Ford",
+    "category": "Outerwear",
+    "subcategory": "Coats",
+    "price": {
+      "amount": 3950,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Sophisticated double-breasted overcoat crafted from pure cashmere.",
+      "long": "This timeless overcoat exemplifies Tom Ford's commitment to impeccable tailoring. Cut from the finest Italian cashmere, it features a classic double-breasted silhouette with peak lapels and a half-lined interior for ease of movement.",
+      "details": [
+        "Double-breasted front with horn buttons",
+        "Notched lapels",
+        "Two side pockets",
+        "Interior chest pocket",
+        "Half-lined construction"
+      ],
+      "composition": "100% Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": false }
+    ],
+    "colors": [
+      { "name": "Navy", "hex": "#1a2332" },
+      { "name": "Charcoal", "hex": "#36454f" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new", "featured"],
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "2",
+    "sku": "BC-KNIT-001",
+    "name": "Wool and Cashmere Rollneck Sweater",
+    "brand": "Brunello Cucinelli",
+    "category": "Knitwear",
+    "subcategory": "Sweaters",
+    "price": {
+      "amount": 1650,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Luxuriously soft rollneck sweater in wool-cashmere blend.",
+      "long": "A wardrobe essential from Brunello Cucinelli. This rollneck sweater is knitted from a sumptuous blend of wool and cashmere, offering exceptional warmth without bulk. The relaxed fit makes it perfect for layering.",
+      "details": [
+        "Rollneck collar",
+        "Ribbed cuffs and hem",
+        "Relaxed fit",
+        "Signature monili beading at collar"
+      ],
+      "composition": "90% Wool, 10% Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Grey", "hex": "#8d8d8d" },
+      { "name": "Navy", "hex": "#1a2332" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "3",
+    "sku": "LP-KNIT-002",
+    "name": "Baby Cashmere Crewneck",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Sweaters",
+    "price": {
+      "amount": 2450,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Ultra-fine baby cashmere crewneck sweater with impeccable finish.",
+      "long": "Loro Piana's mastery of cashmere is evident in this exceptional crewneck. Knitted from the finest baby cashmere, it offers unparalleled softness and a featherweight feel while providing surprising warmth.",
+      "details": [
+        "Ribbed crewneck",
+        "Ribbed cuffs and hem",
+        "Slim fit",
+        "Loro Piana label at side seam"
+      ],
+      "composition": "100% Baby Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=800",
+      "https://images.unsplash.com/photo-1600091166971-7f9faad6c1e2?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": false },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Camel", "hex": "#c19a6b" }
+    ],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": ["featured"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "4",
+    "sku": "TF-SHIRT-001",
+    "name": "Cotton Poplin Dress Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Dress Shirts",
+    "price": {
+      "amount": 590,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic white dress shirt in premium cotton poplin.",
+      "long": "The epitome of refinement, this Tom Ford dress shirt is crafted from crisp Italian cotton poplin. Features a spread collar, mother-of-pearl buttons, and impeccable construction throughout.",
+      "details": [
+        "Spread collar",
+        "Mother-of-pearl buttons",
+        "Barrel cuffs",
+        "Curved hem",
+        "Slim fit"
+      ],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold, tumble dry low",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+      "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=800",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "White", "hex": "#ffffff" }
+    ],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "5",
+    "sku": "BC-PANT-001",
+    "name": "Wool Drawstring Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Dress Pants",
+    "price": {
+      "amount": 1450,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Elegant wool trousers with comfortable drawstring waist.",
+      "long": "These trousers perfectly balance formality with comfort. Cut from fine Italian wool, they feature a drawstring waist for ease while maintaining an elegant silhouette with a tapered leg.",
+      "details": [
+        "Elasticated drawstring waist",
+        "Side slash pockets",
+        "Back welt pockets",
+        "Tapered leg",
+        "Unfinished hem"
+      ],
+      "composition": "100% Virgin Wool",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": false }
+    ],
+    "colors": [
+      { "name": "Navy", "hex": "#1a2332" },
+      { "name": "Grey", "hex": "#8d8d8d" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "6",
+    "sku": "JL-SHOE-001",
+    "name": "Leather Oxford Shoes",
+    "brand": "John Lobb",
+    "category": "Shoes",
+    "subcategory": "Dress Shoes",
+    "price": {
+      "amount": 1895,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Handcrafted Oxford shoes in premium leather with Goodyear welt.",
+      "long": "John Lobb's signature Oxford shoes represent the pinnacle of English shoemaking. Each pair is handcrafted using time-honored techniques, featuring a Goodyear welt construction for durability and elegant lines.",
+      "details": [
+        "Closed lacing system",
+        "Cap-toe design",
+        "Goodyear welt construction",
+        "Leather sole",
+        "Full-grain leather upper"
+      ],
+      "composition": "Leather",
+      "care": "Clean with leather cream, store with shoe trees",
+      "fitNotes": "True to size, UK sizing"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800",
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+      "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true },
+      { "size": "12", "inStock": false }
+    ],
+    "colors": [
+      { "name": "Black", "hex": "#000000" }
+    ],
+    "fit": "regular",
+    "madeIn": "England",
+    "tags": ["bestseller"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "7",
+    "sku": "TF-ACC-001",
+    "name": "Silk Tie",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Ties",
+    "price": {
+      "amount": 290,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Handmade silk tie with subtle pattern.",
+      "long": "This Tom Ford tie is woven from premium silk and features a timeless pattern. Handmade in Italy with exceptional attention to detail.",
+      "details": [
+        "100% silk construction",
+        "Handmade in Italy",
+        "Self-tipped",
+        "Standard 3.5\" width"
+      ],
+      "composition": "100% Silk",
+      "care": "Dry clean only",
+      "fitNotes": "Standard length"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800",
+      "https://images.unsplash.com/photo-1594656892841-7a7e74c22c3d?w=800"
+    ],
+    "sizes": [
+      { "size": "One Size", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Navy", "hex": "#1a2332" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "8",
+    "sku": "TF-OUT-002",
+    "name": "Suede Bomber Jacket",
+    "brand": "Tom Ford",
+    "category": "Outerwear",
+    "subcategory": "Jackets",
+    "price": {
+      "amount": 5650,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Luxurious suede bomber with ribbed trims.",
+      "long": "This bomber jacket elevates casual luxury with buttery soft Italian suede. Features a classic silhouette with ribbed collar, cuffs, and hem, plus a silk lining for comfort.",
+      "details": [
+        "Italian suede construction",
+        "Zip front closure",
+        "Ribbed collar, cuffs, and hem",
+        "Side slash pockets",
+        "Silk lining"
+      ],
+      "composition": "100% Suede, Lining: 100% Silk",
+      "care": "Professional suede cleaning only",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+      "https://images.unsplash.com/photo-1520975867597-0af37a22e31e?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": false },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Brown", "hex": "#654321" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new", "featured"],
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "9",
+    "sku": "LP-OUT-003",
+    "name": "Storm System Raincoat",
+    "brand": "Loro Piana",
+    "category": "Outerwear",
+    "subcategory": "Coats",
+    "price": {
+      "amount": 3250,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Technical raincoat with Storm System water-repellent finish.",
+      "long": "Loro Piana's Storm System technology meets elegant design. This raincoat features a water-repellent finish that beads water away while maintaining breathability and a refined appearance.",
+      "details": [
+        "Storm System water-repellent treatment",
+        "Concealed zip and button front",
+        "Adjustable hood",
+        "Two-way zip",
+        "Interior pockets"
+      ],
+      "composition": "Cotton with Storm System treatment",
+      "care": "Machine wash cold, tumble dry low",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": false },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Navy", "hex": "#1a2332" },
+      { "name": "Khaki", "hex": "#c3b091" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "10",
+    "sku": "BC-KNIT-003",
+    "name": "Cable-Knit Cardigan",
+    "brand": "Brunello Cucinelli",
+    "category": "Knitwear",
+    "subcategory": "Cardigans",
+    "price": {
+      "amount": 1895,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic cable-knit cardigan in soft cashmere blend.",
+      "long": "A refined take on the traditional cardigan. This piece features intricate cable-knit detailing and is crafted from a luxurious cashmere blend for exceptional warmth and comfort.",
+      "details": [
+        "Cable-knit texture",
+        "Button front closure",
+        "Two front pockets",
+        "Ribbed hem and cuffs",
+        "Monili detail"
+      ],
+      "composition": "80% Wool, 20% Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [
+      { "name": "Grey", "hex": "#8d8d8d" }
+    ],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "11",
+    "sku": "TF-SHIRT-002",
+    "name": "Linen Casual Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Casual Shirts",
+    "price": {
+      "amount": 690,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Lightweight linen shirt with relaxed fit.",
+      "long": "Perfect for warm weather, this linen shirt offers effortless style. The natural fiber provides breathability while the relaxed fit ensures all-day comfort.",
+      "details": ["Spread collar", "Mother-of-pearl buttons", "Chest pocket", "Curved hem"],
+      "composition": "100% Linen",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Light Blue", "hex": "#add8e6" }],
+    "fit": "relaxed",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "12",
+    "sku": "BC-PANT-002",
+    "name": "Cotton Chinos",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Chinos",
+    "price": {
+      "amount": 895,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic chinos in premium stretch cotton.",
+      "long": "These versatile chinos combine comfort with refined style. Made from stretch cotton twill with a modern tapered fit.",
+      "details": ["Flat front", "Side pockets", "Button-through back pockets", "Belt loops"],
+      "composition": "97% Cotton, 3% Elastane",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Beige", "hex": "#f5f5dc" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "13",
+    "sku": "CR-SHOE-002",
+    "name": "Suede Loafers",
+    "brand": "Common Projects",
+    "category": "Shoes",
+    "subcategory": "Loafers",
+    "price": {
+      "amount": 495,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Minimalist suede loafers with leather sole.",
+      "long": "Clean-lined loafers crafted from premium suede. Features a leather sole and unlined construction for a sleek profile.",
+      "details": ["Suede upper", "Leather sole", "Unlined", "Made in Italy"],
+      "composition": "Suede",
+      "care": "Use suede brush, professional cleaning",
+      "fitNotes": "True to size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+      "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true }
+    ],
+    "colors": [{ "name": "Tan", "hex": "#d2b48c" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "14",
+    "sku": "TF-ACC-002",
+    "name": "Leather Belt",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "price": {
+      "amount": 490,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Full-grain leather belt with signature buckle.",
+      "long": "Crafted from premium full-grain leather with Tom Ford's signature T-bar buckle in polished metal.",
+      "details": ["Full-grain leather", "Metal T-bar buckle", "Width: 3.5cm"],
+      "composition": "Leather",
+      "care": "Wipe clean with damp cloth",
+      "fitNotes": "Available in multiple sizes"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1624222247344-550fb60583c3?w=800"
+    ],
+    "sizes": [
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "15",
+    "sku": "BC-OUT-004",
+    "name": "Quilted Gilet",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Vests",
+    "price": {
+      "amount": 1950,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Lightweight quilted gilet perfect for layering.",
+      "long": "This versatile gilet features diamond quilting filled with lightweight down. Ideal for transitional weather and layering.",
+      "details": ["Diamond quilting", "Zip front", "Side pockets", "Interior pocket"],
+      "composition": "Shell: Nylon, Fill: Down",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": false }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "16",
+    "sku": "LP-KNIT-004",
+    "name": "Cashmere Zip Sweater",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Sweaters",
+    "price": {
+      "amount": 1850,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Cashmere zip sweater with ribbed details.",
+      "long": "A sporty take on luxury knitwear. This zip sweater is crafted from pure cashmere with ribbed collar, cuffs, and hem.",
+      "details": ["Full zip closure", "Stand collar", "Ribbed trims", "Side pockets"],
+      "composition": "100% Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=800",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Grey", "hex": "#8d8d8d" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "17",
+    "sku": "TF-SHIRT-003",
+    "name": "Chambray Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Casual Shirts",
+    "price": {
+      "amount": 650,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic chambray shirt with subtle texture.",
+      "long": "This refined chambray shirt offers a casual yet sophisticated look. Made from premium Italian cotton.",
+      "details": ["Button-down collar", "Chest pocket", "Mother-of-pearl buttons"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": false },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Indigo", "hex": "#4b0082" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "18",
+    "sku": "BC-PANT-003",
+    "name": "Pleated Wool Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Dress Pants",
+    "price": {
+      "amount": 1295,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic pleated trousers in fine wool.",
+      "long": "These elegant trousers feature forward pleats and a relaxed fit through the leg. Crafted from fine Italian wool.",
+      "details": ["Double forward pleats", "Belt loops", "Side pockets", "Button-through back pockets"],
+      "composition": "100% Virgin Wool",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Charcoal", "hex": "#36454f" }],
+    "fit": "relaxed",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "19",
+    "sku": "CP-SHOE-003",
+    "name": "Leather Sneakers",
+    "brand": "Common Projects",
+    "category": "Shoes",
+    "subcategory": "Sneakers",
+    "price": {
+      "amount": 425,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Minimalist leather sneakers with signature gold serial number.",
+      "long": "The iconic Achilles low-top sneaker in premium Italian leather. Features the signature gold serial number and clean silhouette.",
+      "details": ["Full-grain leather upper", "Leather lining", "Rubber sole", "Gold serial number"],
+      "composition": "Leather",
+      "care": "Wipe clean with damp cloth",
+      "fitNotes": "True to size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true },
+      { "size": "12", "inStock": true }
+    ],
+    "colors": [{ "name": "White", "hex": "#ffffff" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "20",
+    "sku": "TF-ACC-003",
+    "name": "Leather Cardholder",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Wallets",
+    "price": {
+      "amount": 290,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Slim leather cardholder with embossed logo.",
+      "long": "This sleek cardholder features multiple card slots and is crafted from smooth leather with a subtle embossed logo.",
+      "details": ["4 card slots", "Central pocket", "Embossed logo", "Leather construction"],
+      "composition": "Leather",
+      "care": "Wipe clean with soft cloth",
+      "fitNotes": "Standard size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800"
+    ],
+    "sizes": [{ "size": "One Size", "inStock": true }],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "21",
+    "sku": "BC-OUT-005",
+    "name": "Wool Peacoat",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Coats",
+    "price": {
+      "amount": 3295,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic peacoat in premium wool melton.",
+      "long": "A timeless wardrobe staple. This peacoat is cut from dense wool melton fabric and features a double-breasted front with anchor-embossed buttons.",
+      "details": ["Double-breasted front", "Notch lapels", "Side slash pockets", "Interior pockets"],
+      "composition": "90% Wool, 10% Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "22",
+    "sku": "LP-KNIT-005",
+    "name": "Cashmere V-Neck Sweater",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Sweaters",
+    "price": {
+      "amount": 1650,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Lightweight cashmere V-neck sweater.",
+      "long": "A wardrobe essential. This V-neck sweater is knitted from pure cashmere with a classic silhouette.",
+      "details": ["V-neck", "Ribbed trims", "Regular fit"],
+      "composition": "100% Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "23",
+    "sku": "TF-SHIRT-004",
+    "name": "Striped Dress Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Dress Shirts",
+    "price": {
+      "amount": 620,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic striped dress shirt in cotton poplin.",
+      "long": "This shirt features fine pencil stripes on crisp cotton poplin. Cut with a spread collar and French cuffs for cufflinks.",
+      "details": ["Spread collar", "French cuffs", "Mother-of-pearl buttons"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Blue/White", "hex": "#add8e6" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "24",
+    "sku": "BC-PANT-004",
+    "name": "Corduroy Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Casual Pants",
+    "price": {
+      "amount": 995,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Soft corduroy trousers with tapered leg.",
+      "long": "These corduroy trousers feature fine wale corduroy in a modern tapered fit. Perfect for casual elegance.",
+      "details": ["Flat front", "Side slash pockets", "Belt loops"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": false }
+    ],
+    "colors": [{ "name": "Brown", "hex": "#654321" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "25",
+    "sku": "JL-SHOE-004",
+    "name": "Chelsea Boots",
+    "brand": "John Lobb",
+    "category": "Shoes",
+    "subcategory": "Boots",
+    "price": {
+      "amount": 1695,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic Chelsea boots in polished leather.",
+      "long": "These timeless Chelsea boots feature elastic side gussets and pull tabs. Crafted with Goodyear welt construction.",
+      "details": ["Elastic side gussets", "Pull tabs", "Goodyear welt", "Leather sole"],
+      "composition": "Leather",
+      "care": "Polish regularly, use shoe trees",
+      "fitNotes": "True to size, UK sizing"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true },
+      { "size": "12", "inStock": false }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "England",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "26",
+    "sku": "TF-ACC-004",
+    "name": "Silk Pocket Square",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Pocket Squares",
+    "price": {
+      "amount": 195,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Hand-rolled silk pocket square with subtle pattern.",
+      "long": "This pocket square is crafted from pure silk with hand-rolled edges. Features a sophisticated pattern.",
+      "details": ["100% silk", "Hand-rolled edges", "33cm x 33cm"],
+      "composition": "100% Silk",
+      "care": "Dry clean only",
+      "fitNotes": "Standard size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1594656892841-7a7e74c22c3d?w=800"
+    ],
+    "sizes": [{ "size": "One Size", "inStock": true }],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "27",
+    "sku": "BC-OUT-006",
+    "name": "Down Puffer Jacket",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Jackets",
+    "price": {
+      "amount": 2795,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Lightweight down puffer with quilted design.",
+      "long": "This refined puffer jacket features lightweight down insulation and a subtle quilted pattern. Water-resistant shell fabric.",
+      "details": ["Down insulation", "Water-resistant", "Zip front", "Side pockets"],
+      "composition": "Shell: Nylon, Fill: Down",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "28",
+    "sku": "LP-KNIT-006",
+    "name": "Merino Wool Polo",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Polos",
+    "price": {
+      "amount": 895,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Fine-gauge merino wool polo sweater.",
+      "long": "This sophisticated polo is knitted from extra-fine merino wool. Features a ribbed collar and a slim fit.",
+      "details": ["Polo collar", "Two-button placket", "Ribbed trims"],
+      "composition": "100% Extra-Fine Merino Wool",
+      "care": "Hand wash cold",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Grey", "hex": "#8d8d8d" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "29",
+    "sku": "TF-SHIRT-005",
+    "name": "Oxford Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Casual Shirts",
+    "price": {
+      "amount": 640,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic Oxford cloth button-down shirt.",
+      "long": "A refined take on the American classic. This Oxford shirt features a button-down collar and is crafted from premium cotton.",
+      "details": ["Button-down collar", "Chest pocket", "Barrel cuffs"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "White", "hex": "#ffffff" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "30",
+    "sku": "BC-PANT-005",
+    "name": "Denim Jeans",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Jeans",
+    "price": {
+      "amount": 895,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Premium Japanese denim jeans with tapered leg.",
+      "long": "These jeans are crafted from selvedge Japanese denim with a modern tapered fit. Features subtle fading and whiskering.",
+      "details": ["Selvedge denim", "Five-pocket styling", "Button fly", "Tapered leg"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold inside out",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1542272454315-7f6d81556b88?w=800",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Indigo", "hex": "#4b0082" }],
+    "fit": "slim",
+    "madeIn": "Japan",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "31",
+    "sku": "CP-SHOE-005",
+    "name": "Canvas Sneakers",
+    "brand": "Common Projects",
+    "category": "Shoes",
+    "subcategory": "Sneakers",
+    "price": {
+      "amount": 365,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Minimalist canvas low-top sneakers.",
+      "long": "Clean-lined sneakers with canvas upper and signature gold serial number. Features a vulcanized rubber sole.",
+      "details": ["Canvas upper", "Rubber sole", "Gold serial number"],
+      "composition": "Canvas",
+      "care": "Spot clean only",
+      "fitNotes": "True to size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "32",
+    "sku": "TF-ACC-005",
+    "name": "Leather Briefcase",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "price": {
+      "amount": 3950,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Full-grain leather briefcase with structured silhouette.",
+      "long": "This executive briefcase is crafted from premium full-grain leather. Features a padded laptop compartment and multiple interior pockets.",
+      "details": ["Full-grain leather", "Laptop compartment", "Interior organizer", "Shoulder strap included"],
+      "composition": "Leather",
+      "care": "Clean with leather cream",
+      "fitNotes": "Fits 15\" laptop"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800"
+    ],
+    "sizes": [{ "size": "One Size", "inStock": true }],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "33",
+    "sku": "BC-OUT-007",
+    "name": "Field Jacket",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Jackets",
+    "price": {
+      "amount": 2495,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Military-inspired field jacket in cotton twill.",
+      "long": "A sophisticated take on the classic field jacket. Made from durable cotton twill with a refined fit.",
+      "details": ["Four front pockets", "Drawstring waist", "Button and zip closure"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Olive", "hex": "#556b2f" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "34",
+    "sku": "LP-KNIT-007",
+    "name": "Cashmere Hoodie",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Hoodies",
+    "price": {
+      "amount": 2150,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Luxurious cashmere hoodie with relaxed fit.",
+      "long": "This hoodie elevates casual wear with pure cashmere construction. Features a drawstring hood and kangaroo pocket.",
+      "details": ["Drawstring hood", "Kangaroo pocket", "Ribbed cuffs and hem"],
+      "composition": "100% Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": false }
+    ],
+    "colors": [{ "name": "Grey", "hex": "#8d8d8d" }],
+    "fit": "relaxed",
+    "madeIn": "Italy",
+    "tags": ["new"],
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "35",
+    "sku": "TF-SHIRT-006",
+    "name": "Silk Dress Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Dress Shirts",
+    "price": {
+      "amount": 1290,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Luxurious silk dress shirt with lustrous finish.",
+      "long": "The ultimate in evening elegance. This shirt is crafted from pure silk with a subtle sheen and impeccable drape.",
+      "details": ["Pure silk", "Spread collar", "Mother-of-pearl buttons", "French cuffs"],
+      "composition": "100% Silk",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": false },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "White", "hex": "#ffffff" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "36",
+    "sku": "BC-PANT-006",
+    "name": "Linen Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Casual Pants",
+    "price": {
+      "amount": 995,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Lightweight linen trousers perfect for summer.",
+      "long": "These trousers are crafted from pure linen with a relaxed fit. Perfect for warm weather elegance.",
+      "details": ["Flat front", "Drawstring waist", "Side pockets"],
+      "composition": "100% Linen",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Beige", "hex": "#f5f5dc" }],
+    "fit": "relaxed",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "37",
+    "sku": "JL-SHOE-006",
+    "name": "Suede Desert Boots",
+    "brand": "John Lobb",
+    "category": "Shoes",
+    "subcategory": "Boots",
+    "price": {
+      "amount": 1495,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic desert boots in premium suede.",
+      "long": "These desert boots feature soft suede uppers and crepe rubber soles. A casual yet refined option.",
+      "details": ["Suede upper", "Crepe rubber sole", "Lace-up closure"],
+      "composition": "Suede",
+      "care": "Use suede brush, professional cleaning",
+      "fitNotes": "True to size, UK sizing"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true }
+    ],
+    "colors": [{ "name": "Sand", "hex": "#c2b280" }],
+    "fit": "regular",
+    "madeIn": "England",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "38",
+    "sku": "TF-ACC-006",
+    "name": "Leather Gloves",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Gloves",
+    "price": {
+      "amount": 595,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Cashmere-lined leather gloves.",
+      "long": "These elegant gloves feature supple leather exteriors with soft cashmere linings for warmth and comfort.",
+      "details": ["Nappa leather", "Cashmere lining", "Three-point stitching"],
+      "composition": "Leather, Cashmere lining",
+      "care": "Professional leather cleaning",
+      "fitNotes": "Available in multiple sizes"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "39",
+    "sku": "BC-OUT-008",
+    "name": "Leather Jacket",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Jackets",
+    "price": {
+      "amount": 5995,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Premium leather jacket with classic biker styling.",
+      "long": "This leather jacket is crafted from buttery soft lambskin. Features a classic biker silhouette with multiple zippers.",
+      "details": ["Lambskin leather", "Zip front", "Zip pockets", "Quilted shoulders"],
+      "composition": "100% Leather",
+      "care": "Professional leather cleaning only",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+      "https://images.unsplash.com/photo-1520975867597-0af37a22e31e?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": false },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": ["featured"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "40",
+    "sku": "LP-KNIT-008",
+    "name": "Cashmere Turtleneck",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Sweaters",
+    "price": {
+      "amount": 1795,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Fine-gauge cashmere turtleneck sweater.",
+      "long": "This turtleneck is knitted from the finest cashmere with a slim fit. A timeless layering piece.",
+      "details": ["Turtleneck collar", "Ribbed trims", "Slim fit"],
+      "composition": "100% Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "41",
+    "sku": "TF-SHIRT-007",
+    "name": "Flannel Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Casual Shirts",
+    "price": {
+      "amount": 795,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Soft flannel shirt with subtle check pattern.",
+      "long": "This flannel shirt is crafted from premium cotton with a soft brushed finish. Perfect for cooler weather.",
+      "details": ["Button-down collar", "Chest pocket", "Curved hem"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Grey/Navy", "hex": "#708090" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "42",
+    "sku": "BC-PANT-007",
+    "name": "Flannel Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Dress Pants",
+    "price": {
+      "amount": 1395,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Soft flannel trousers with elegant drape.",
+      "long": "These trousers are cut from soft wool flannel with a classic fit. Perfect for autumn and winter.",
+      "details": ["Flat front", "Side pockets", "Belt loops"],
+      "composition": "100% Virgin Wool",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Grey", "hex": "#8d8d8d" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "43",
+    "sku": "CP-SHOE-007",
+    "name": "High-Top Sneakers",
+    "brand": "Common Projects",
+    "category": "Shoes",
+    "subcategory": "Sneakers",
+    "price": {
+      "amount": 505,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Minimalist high-top sneakers in premium leather.",
+      "long": "The iconic high-top silhouette features premium Italian leather and signature gold serial number.",
+      "details": ["Full-grain leather", "Gold serial number", "Rubber sole"],
+      "composition": "Leather",
+      "care": "Wipe clean with damp cloth",
+      "fitNotes": "True to size"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true }
+    ],
+    "colors": [{ "name": "Black", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "44",
+    "sku": "TF-ACC-007",
+    "name": "Cashmere Scarf",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Scarves",
+    "price": {
+      "amount": 695,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Luxurious cashmere scarf with subtle pattern.",
+      "long": "This scarf is woven from pure cashmere with fringe detailing. Exceptionally soft and warm.",
+      "details": ["100% cashmere", "Fringe ends", "Subtle pattern"],
+      "composition": "100% Cashmere",
+      "care": "Dry clean only",
+      "fitNotes": "190cm x 35cm"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800"
+    ],
+    "sizes": [{ "size": "One Size", "inStock": true }],
+    "colors": [{ "name": "Charcoal", "hex": "#36454f" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "45",
+    "sku": "BC-OUT-009",
+    "name": "Wool Blazer",
+    "brand": "Brunello Cucinelli",
+    "category": "Outerwear",
+    "subcategory": "Blazers",
+    "price": {
+      "amount": 3495,
+      "currency": "USD",
+      "onSale": true,
+      "originalPrice": 4295
+    },
+    "description": {
+      "short": "Single-breasted wool blazer with notch lapels.",
+      "long": "This refined blazer is crafted from premium Italian wool. Features a two-button front and functional sleeve buttons.",
+      "details": ["Two-button front", "Notch lapels", "Flap pockets", "Functional sleeve buttons"],
+      "composition": "100% Virgin Wool",
+      "care": "Dry clean only",
+      "fitNotes": "Model is 6'2\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800",
+      "https://images.unsplash.com/photo-1594938374781-ea5f9491f9cb?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": false }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": ["sale", "featured"],
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "46",
+    "sku": "LP-KNIT-009",
+    "name": "Cashmere Vest",
+    "brand": "Loro Piana",
+    "category": "Knitwear",
+    "subcategory": "Vests",
+    "price": {
+      "amount": 1295,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Sleeveless cashmere vest for layering.",
+      "long": "This vest is knitted from pure cashmere with a V-neck. Perfect for layering over shirts.",
+      "details": ["V-neck", "Sleeveless", "Ribbed trims"],
+      "composition": "100% Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "fitNotes": "Model is 6'0\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+      "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "Navy", "hex": "#1a2332" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "47",
+    "sku": "TF-SHIRT-008",
+    "name": "Polo Shirt",
+    "brand": "Tom Ford",
+    "category": "Shirts",
+    "subcategory": "Polo Shirts",
+    "price": {
+      "amount": 590,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic cotton piqué polo shirt.",
+      "long": "This polo features soft cotton piqué with a tailored fit. Finished with mother-of-pearl buttons.",
+      "details": ["Cotton piqué", "Two-button placket", "Ribbed collar and cuffs"],
+      "composition": "100% Cotton",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'1\" and wears size M"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true },
+      { "size": "M", "inStock": true },
+      { "size": "L", "inStock": true },
+      { "size": "XL", "inStock": true }
+    ],
+    "colors": [{ "name": "White", "hex": "#ffffff" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "48",
+    "sku": "BC-PANT-008",
+    "name": "Cargo Trousers",
+    "brand": "Brunello Cucinelli",
+    "category": "Trousers",
+    "subcategory": "Casual Pants",
+    "price": {
+      "amount": 1095,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Refined cargo trousers in stretch cotton.",
+      "long": "These cargo trousers feature a modern slim fit with side cargo pockets. Made from stretch cotton twill.",
+      "details": ["Slim fit", "Side cargo pockets", "Drawstring waist"],
+      "composition": "97% Cotton, 3% Elastane",
+      "care": "Machine wash cold",
+      "fitNotes": "Model is 6'2\" and wears size 32"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800"
+    ],
+    "sizes": [
+      { "size": "30", "inStock": true },
+      { "size": "32", "inStock": true },
+      { "size": "34", "inStock": true },
+      { "size": "36", "inStock": true }
+    ],
+    "colors": [{ "name": "Olive", "hex": "#556b2f" }],
+    "fit": "slim",
+    "madeIn": "Italy",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "49",
+    "sku": "JL-SHOE-008",
+    "name": "Monk Strap Shoes",
+    "brand": "John Lobb",
+    "category": "Shoes",
+    "subcategory": "Dress Shoes",
+    "price": {
+      "amount": 1795,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Double monk strap shoes in polished leather.",
+      "long": "These monk strap shoes feature two buckle straps and are crafted with Goodyear welt construction.",
+      "details": ["Double monk straps", "Goodyear welt", "Leather sole"],
+      "composition": "Leather",
+      "care": "Polish regularly, use shoe trees",
+      "fitNotes": "True to size, UK sizing"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800",
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800"
+    ],
+    "sizes": [
+      { "size": "8", "inStock": true },
+      { "size": "9", "inStock": true },
+      { "size": "10", "inStock": true },
+      { "size": "11", "inStock": true }
+    ],
+    "colors": [{ "name": "Brown", "hex": "#654321" }],
+    "fit": "regular",
+    "madeIn": "England",
+    "tags": [],
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "50",
+    "sku": "TF-ACC-008",
+    "name": "Sunglasses",
+    "brand": "Tom Ford",
+    "category": "Accessories",
+    "subcategory": "Eyewear",
+    "price": {
+      "amount": 495,
+      "currency": "USD",
+      "onSale": false
+    },
+    "description": {
+      "short": "Classic aviator sunglasses with metal frame.",
+      "long": "These timeless aviator sunglasses feature a lightweight metal frame with gradient lenses and 100% UV protection.",
+      "details": ["Metal frame", "Gradient lenses", "100% UV protection", "Signature T logo"],
+      "composition": "Metal, Acetate",
+      "care": "Clean with microfiber cloth",
+      "fitNotes": "Standard fit"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800",
+      "https://images.unsplash.com/photo-1577803645773-f96470509666?w=800"
+    ],
+    "sizes": [{ "size": "One Size", "inStock": true }],
+    "colors": [{ "name": "Black/Grey", "hex": "#000000" }],
+    "fit": "regular",
+    "madeIn": "Italy",
+    "tags": ["bestseller"],
+    "featured": false,
+    "newArrival": false
+  }
+]
